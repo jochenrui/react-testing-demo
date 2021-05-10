@@ -1,2 +1,3 @@
 # react-testing-demo
- repo to display some testing capabilities
+
+project to display some testing capabilities
