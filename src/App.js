@@ -1,7 +1,11 @@
+import { Heading } from "./components/Heading";
+import { IdentifierButtons } from "./components/IdentifierButtons";
+
 function App() {
   return (
-    <div className="App">
-      <h1>React Testing</h1>
+    <div>
+      <Heading />
+      <IdentifierButtons />
     </div>
   );
 }
