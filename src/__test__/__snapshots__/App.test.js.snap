@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app renders correctly app mount renders correctly 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <h1>
+      React Testing
+    </h1>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <button
+      role="button-role"
+      style={
+        Object {
+          "borderRadius": "7px",
+          "height": "40px",
+          "width": "100px",
+        }
+      }
+    >
+      Role
+    </button>
+    <button
+      data-testid="button-testid"
+      style={
+        Object {
+          "borderRadius": "7px",
+          "height": "40px",
+          "width": "100px",
+        }
+      }
+    >
+      Test Id
+    </button>
+    <button
+      className="button-class"
+      style={
+        Object {
+          "borderRadius": "7px",
+          "height": "40px",
+          "width": "100px",
+        }
+      }
+    >
+      Test Id
+    </button>
+  </div>
+</div>
+`;
+
+exports[`app renders correctly app shallow renders correctly 1`] = `
+<div>
+  <Heading />
+  <IdentifierButtons />
+</div>
+`;
