@@ -5,5 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Enzyme
 
-npm install --save-dev enzyme enzyme-to-json
-npm install --save-dev @wojtekmaj/enzyme-adapter-react-17
+- npm install --save-dev enzyme enzyme-to-json
+- npm install --save-dev @wojtekmaj/enzyme-adapter-react-17
+
+## React Testing Library
+
+- npm install @testing-library/react
