@@ -10,17 +10,33 @@ const buttonStyle = {
   borderRadius: "7px",
 };
 
-export const IdentifierButtons = () => {
+export const IdentifierButtons = ({
+  onClickIncrement,
+  onClickDecrement,
+  onClickAdd,
+}) => {
   return (
     <div style={style}>
-      <button role="button-role" style={buttonStyle}>
+      <button
+        role="button-role"
+        style={buttonStyle}
+        onClick={() => onClickIncrement()}
+      >
         Role
       </button>
-      <button data-testid="button-testid" style={buttonStyle}>
+      <button
+        data-testid="button-testid"
+        style={buttonStyle}
+        onClick={() => onClickDecrement()}
+      >
         Test Id
       </button>
-      <button className="button-class" style={buttonStyle}>
-        Test Id
+      <button
+        className="button-class"
+        style={buttonStyle}
+        onClick={() => onClickAdd(5)}
+      >
+        Class
       </button>
     </div>
   );
